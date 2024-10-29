@@ -11,17 +11,6 @@
 #include "services/gatt/ble_svc_gatt.h"
 #include "services/ans/ble_svc_ans.h"
 
-typedef struct
-{
-    UCHAR_T role;
-    struct
-    {
-        UCHAR_T buffer[256];
-        USHORT_T size;
-        USHORT_T handle;
-    } read_char[1];
-} TKL_BLUETOOTH_SERVER_PARAMS_T;
-
 static TKL_BLUETOOTH_SERVER_PARAMS_T tuya_ble_server;
 static TKL_BLE_GAP_EVT_FUNC_CB tkl_bluetooth_gap_callback;
 static TKL_BLE_GATT_EVT_FUNC_CB tkl_bluetooth_gatt_callback;
