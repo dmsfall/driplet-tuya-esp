@@ -2,6 +2,8 @@
 
 DripLet **Tuya** integration repository.
 
+Thanks to <https://github.com/GammaTroniques/TICMeter>!
+
 ## Installation
 
 Clone repo
@@ -18,4 +20,5 @@ Build using ESP-IDF, flash and use :)
 - [ ] Add Tuya data-points for DripLet device
 - [ ] Connect ESP32 with DripLet main MCU via UART
 - [ ] Refactor code
+- [ ] Maybe use [Tuya Open SDK For Device](https://github.com/tuya/tuya-open-sdk-for-device)?
 - [ ] Enjoy 🙈 
